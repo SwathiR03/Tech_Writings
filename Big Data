@@ -35,29 +35,40 @@ The logical layers In the Big Data Pipeline are:
 
 * Layer 1: Identification of sources of data which involves gathering of data from various sources,
 identifying data types and their formats.
+
 * Layer 2: Data ingestion and acquisition which involves using of Extract-Transform-Load (ETL) in batches
 or real time, structuring the data to add meaning to it and pre-processing data to remove missing values
 or inconsistencies.
+
 * Layer 3: Data storage through the use of Hadoop Distributed File System, Traditional Relational Database
 Management Systems or Not Only SQL data stores like MongoDB, HBase or Cassandra which do not follow
 a fixed schema. The choice of storage will be based on factors like whether the data is historic or
 incremental, its format, querying patterns and data consumption.
+
 In case of traditional structured data running into millions such as logs of transactions, the choice of
 storage would be Relational Database Management Systems such as Oracle, Sybase or DB2 and processing
 would be done through Data warehouses or Data marts.
+
 In case of data which run into terabytes or more and is unstructured like social media data, messages or
 emails, Not Only SQL databases like MongoDB, HBase or Cassandra are preferred.
+
 In case of continuous streaming data like Stock Market Data, Social Media Analytics such as likes or clicks,
 data is stored in distributed file systems like Hadoop and processed through tools like Spark and Mesos.
+
 * Layer 4: Data processing which involves using techniques like MapReduce and applications like Hive, Pig
 or Spark. The processing can be in batches, real-time or a combination of both. Processing can also be
 synchronous(sequential) or asynchronous.
+
 * Layer 5: Data consumption which refers to the usage of data. This includes exporting the data to the cloud
 or web and using it for downstream tasks such as Machine Learning, Business Intelligence and Data
 Analytics.
+
 Big Data has brought a paradigm shift in the way data has been viewed and used in the industry. Various
 companies from Big Tech to Political Campaigners are using Big Data to get meaningful insights from data
 and achieve their goals. As British Mathematician Clive Humby said, “Data is the new oil”. Big Data thus
 holds immense potential in businesses to make informed decisions, operate more efficiently and gain
 competitive advantages.
+
+
+
 [1]: 6 Predictions About Data In 2020 And the Coming Decade by Gil Press
